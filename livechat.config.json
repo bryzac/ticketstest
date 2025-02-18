@@ -1,3 +1,17 @@
 {
-    "id": "QddlT2FHR"
+    "id": "QddlT2FHR",
+    "name": "Test",
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "5e225e315b172456ee4679142b7ddf72",
+            "type": "javascript_app",
+            "redirectUri": "http://localhost"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "bryzac/ticketstest",
+            "branch": "main"
+        }
+    }
 }
